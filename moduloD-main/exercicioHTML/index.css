@@ -15,22 +15,27 @@ body {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
     margin: 20px;
 }
 
 nav a:hover {
     color: steelblue;
+    display: flex;
+    justify-content: center;
 }
 header{
-    width: 101%;
+    width: 100%;
     margin-left: -8px;
     margin-right: -8px;
     margin-top: -8px;
 }
+.header-nav{
+    display: flex;
+}
 header img {
-    height: 70px;
+    height  : 70px;
     width: 140px;
 }
 footer {
@@ -52,7 +57,11 @@ footer p{
     color: black;
 }
 .logo{
+    display: flex;
     background-color: #08243c;
+    align-items: center;
+    justify-content: space-between;
+
 }
 #hranime{
     margin-top: 100px;
@@ -62,4 +71,8 @@ footer p{
 }
 #sobre{
     margin-top: 200px;
+}
+#vancine{
+    color: white;
+    margin-left: 280px;
 }
