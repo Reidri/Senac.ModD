@@ -1,0 +1,24 @@
+
+.logo{
+   background-color: #08243c;
+   display: flex;
+   color: white;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 100%;
+   margin-left: -8px;
+   margin-right: -8px;
+   margin-top: -8px;
+}
+header img{
+    height: 70px;
+    width: 140px;
+    margin-right: 357px;
+}
+.center{
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: 400;
+}
